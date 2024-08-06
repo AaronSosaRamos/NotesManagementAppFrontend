@@ -3,13 +3,13 @@ const nextConfig = {
     async headers() {
         return [
             {
-                source: '/user/:path*',
+                source: '/user/login',
                 headers: [
                     { key: 'Access-Control-Allow-Credentials', value: 'true' },
-                    { key: 'Access-Control-Allow-Origin', value: '*' },
+                    { key: 'Access-Control-Allow-Origin', value: 'https://notes-management-app-three.vercel.app/' },
                     {
                         key: 'Access-Control-Allow-Methods',
-                        value: 'GET,DELETE,PATCH,POST,PUT',
+                        value: 'POST',
                     },
                     {
                         key: 'Access-Control-Allow-Headers',
