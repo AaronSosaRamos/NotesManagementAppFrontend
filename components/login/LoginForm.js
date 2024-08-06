@@ -18,7 +18,7 @@ const LoginForm = () => {
     setError('');
 
     try {
-      const response = await axios.post('https://notes-management-app-backend-eta.vercel.app/user/login', {
+      const response = await axios.post('https://notes-management-app-backend-khaki.vercel.app/user/login', {
         email,
         password,
       });
