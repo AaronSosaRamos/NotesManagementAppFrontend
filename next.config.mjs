@@ -14,7 +14,7 @@ const nextConfig = {
                     {
                         key: 'Access-Control-Allow-Headers',
                         value:
-                            'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version',
+                            'Content-Type, Authorization',
                     },
                 ],
             },
@@ -30,7 +30,7 @@ const nextConfig = {
                     {
                         key: 'Access-Control-Allow-Headers',
                         value:
-                            'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version',
+                            'Content-Type, Authorization',
                     },
                 ],
             },
@@ -46,7 +46,7 @@ const nextConfig = {
                     {
                         key: 'Access-Control-Allow-Headers',
                         value:
-                            'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version',
+                            'Content-Type, Authorization',
                     },
                 ],
             },
